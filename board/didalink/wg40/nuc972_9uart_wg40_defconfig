@@ -11,6 +11,7 @@ BR2_TARGET_TZ_ZONELIST="asia"
 BR2_TARGET_LOCALTIME="Asia/Shanghai"
 BR2_ROOTFS_OVERLAY="board/didalink/wg40/rootfs"
 BR2_ROOTFS_POST_BUILD_SCRIPT="board/didalink/wg40/script/script-before.sh"
+BR2_ROOTFS_POST_FAKEROOT_SCRIPT="board/didalink/wg40/script/script-fake.sh"
 BR2_ROOTFS_POST_IMAGE_SCRIPT="board/didalink/wg40/script/script-after.sh"
 BR2_LINUX_KERNEL=y
 BR2_LINUX_KERNEL_CUSTOM_GIT=y
